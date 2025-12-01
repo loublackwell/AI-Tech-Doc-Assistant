@@ -36,12 +36,15 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 
 - **JSON Output**: Optional structured output for system integration
 
-- **Named Entity Recognition (Future Version)**:
-
 
 ## App Architecture
 
-### The Indexing Pipeline
+### The Indexing Process
+1. Document ingestion (PDF/TXT from TECH_DOCUMENTS/DOCUMENTS/ folder)
+2. Text extraction using Unstructured library
+3. Section grouping by detected titles
+4. Image extraction and metadata capture
+5. Vector embedding and ChromaDB storage with unique IDs
 
 
 ### Query Pipeline
@@ -51,7 +54,8 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 **Retrieval with Reranking**
 
 **Deduplication of Sub-Queries
-
+- Compound queries are transformed into a list of sub-queries and the query results recieved from the vector DB are deduped before passing to the LLM for final processing/evaluation.
+  
 **API**
 -For this application I used a free version of Groq (model: llama-3.3-70b-versatile)
 
@@ -60,6 +64,7 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 **Hybrid search**: Utilize a combination of keyword and semantic search
 **Prompt tuning**: More rigorous evaluation of prompts and perform A/B testing.
 **Enable Static chunking options**:
+**Named Entity Recognition (Future Version)**: Highlight detected entities
 
 
 ## Setup
@@ -68,7 +73,7 @@ Suggestion: I recommend creating a virtual environment for this app to run in
 # Install dependencies
 pip install -r requirements.txt
 
-# Run application
+# Start/Run application
 streamlit run main.py
 ```
 
@@ -82,7 +87,7 @@ streamlit run main.py
 ## Configuration Options
 
 - **Chunking**: Auto (by titles) or Static (configurable size/overlap - not yet implemented)
-- **Image Capture**: Toggle document image extraction
+- **Image Capture**: Toggle document image extraction options for PDF documents.
 - **Indexing Scope**: Single document or batch processing
 
 ## Technical Stack
@@ -92,4 +97,5 @@ streamlit run main.py
 - **Reranking**: cross-encoder/ms-marco-MiniLM-L-6-v2
 - **LLM**: Groq (llama-3.3-70b-versatile)
 - **Document Processing**: Unstructured library
-- **Frontend**: Streamlit
+- **Frontend**: Streamlit 
+- **Script Language used**: Python 3.10.16
