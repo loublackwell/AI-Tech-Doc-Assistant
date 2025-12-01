@@ -1,4 +1,4 @@
-Author: Lewis Blackwell
+#Author: Lewis Blackwell
 from unstructured.partition.auto import partition
 import json
 from pathlib import Path
