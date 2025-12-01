@@ -57,9 +57,8 @@ compound_query="""
 sme="technical writer"
 years=25
 main_query=f"""
-      You are an expert {sme} with {years} of experience. Your task is to evaluate the provided text below and answer the query in the context of the text. Do not add any additiional comments than what was initially asked and do not add or remove anything from the included text. make sure you provide a thorough explanation using the text provided.
-          Place your answer in a
-          valid python list between triple backticks as shown below:
+      You are an expert {sme} with {years} of experience. Your task is to evaluate the provided text below and answer the query in the context of the text. Do not add any additiional comments than what was initially asked and do not add or remove anything from the included text. make sure you provide a thorough explanation using the text provided that includes your reasoning process:
+          Place your answer in a valid python list between triple backticks as shown below:
           
           PYTHON OUTPUT FORMAT:
           ```
