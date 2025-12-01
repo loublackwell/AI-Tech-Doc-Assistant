@@ -41,7 +41,7 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 
 ## App Architecture
 
-###The Indexing Pipeline
+### The Indexing Pipeline
 
 
 ### Query Pipeline
