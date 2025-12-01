@@ -1,0 +1,3017 @@
+[
+  {
+    "type": "NarrativeText",
+    "text": "Leveraging user profile attributes for improving pedagogical accuracy of learning pathways Dae Ki Kang* Department of Computer Engineering Dongseo University Busan 617716, Korea dkkang@dongseo.ac.kr",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((75.384, 57.743999999999915), (75.384, 182.77135999999996), (572.23, 182.77135999999996), (572.23, 57.743999999999915)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "Tanmay Sinha Department of Computer Science Vellore Institute of Technology Chennai 600127, India tanmay.sinha655@gmail.com",
+    "page": 1,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((37.32, 118.68464000000006), (37.32, 182.77135999999996), (175.79000000000002, 182.77135999999996), (175.79000000000002, 118.68464000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "Ankit Banka Department of Computer Science Vellore Institute of Technology Chennai 600127, India ankitbanka17@gmail.com",
+    "page": 1,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((230.33, 118.68464000000006), (230.33, 182.77135999999996), (366.28000000000003, 182.77135999999996), (366.28000000000003, 118.68464000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Abstract - In recent years, with the enormous explosion of web based learning resources, personalization has become a critical factor for the success of services that wish to leverage the power of Web 2.0. However, the relevance, significance and impact of tailored content delivery in the learning domain is still questionable. Apart from considering only interaction based features like ratings and inferring learner preferences from them, if these services were to incorporate innate user profile attributes which affect learning activities, the quality of recommendations produced could be vastly improved. Recognizing the crucial role of effective guidance in informal educational settings, we provide a principled way of utilizing multiple sources of information from the user profile itself for the recommendation task. We explore factors that affect the choice of learning resources and explain in what way are they helpful to improve the pedagogical accuracy of learning objects systematical application of machine learning techniques, we further provide a technological solution to convert these indirectly mapped learner specific attributes into a direct mapping with the learning resources. This mapping has a distinct advantage of tagging learning resources to make their metadata more informative. The results of our empirical study depict the similarity of nominal learning attributes with respect to each other. We further succeed in capturing the learner subset, whose preferences are most likely to be an indication of learning resource usage. Our novel system filters learner profile attributes to discover a tag that links them with learning resources.",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 201.04399999999998), (45.0, 484.654), (299.303, 484.654), (299.303, 201.04399999999998)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "recommended. Through a",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((124.935, 359.474), (124.935, 368.474), (242.106, 368.474), (242.106, 359.474)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Keywords - Apriori principle, Clustering, NMF, Learning",
+    "page": 1,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((62.28, 493.17400000000004), (62.28, 502.17400000000004), (299.129, 502.17400000000004), (299.129, 493.17400000000004)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Pathway, Pedagogical accuracy, Technology enhanced learning.",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 503.61400000000003), (45.0, 512.614), (293.06, 512.614), (293.06, 503.61400000000003)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "I. INTRODUCTION",
+    "page": 1,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((135.62, 524.5813599999999), (135.62, 534.5413599999999), (208.79000000000002, 534.5413599999999), (208.79000000000002, 524.5813599999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Education has been acknowledged as one of the major pillars to support and improve lives of the economically disadvantaged [26]. Technology enhanced learning(TEL) aims to enhance learning practices of individuals and organizations by the design, development and testing of interactive socio technical innovations [2]. It provides an opportunity to unleash the full potential of machine learning algorithms and apply them to quantify and incorporate psychological factors that affect learning. As the web is becoming more ubiquitous, an increased number of learners are gradually turning towards online education to seek additional support and guidance. Therefore, improving learner experience is also another major focus of TEL. Over the years, various learning repositories",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 542.34136), (45.0, 693.45136), (299.53856, 693.45136), (299.53856, 542.34136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "like Khan Academy, Merlot(with more than 20,000 learning resources and about 70,000 registered users), OER Commons(with about 18,000 resources), European Schoolnet's Learning Resource Exchange(with more than 43,000 learning resources from 25 different content providers in Europe and beyond), online education platforms like Coursera, Udacity, EdX, Khan Academy, Venture Lab and e-learning platforms NPTEL have been established. They provide personalized learning environments and offer pedagogical support for learners in informal educational settings.",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 195.01136000000008), (315.05, 310.84136), (569.59, 310.84136), (569.59, 195.01136000000008)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Apart from providing custom self paced learning tools, such organizations also measure student progress and provide targeted interventions. In contrast to formal education systems in schools and universities where predefined course structures, well formed accreditation procedures and a regular quality check of knowledge inflow and outflow is maintained by domain experts, informal learning is basically a kind of lifelong learning activity. Here, students are responsible for their own learning pace and path [1]. The process of learning is often self directed and heavily dependent on users preferences. Because of no directed course plan and massive enrollment to form such informal learning networks, these learners are often overwhelmed with a plethora of alternative learning resources to choose from. It is highly impossible for a faculty to cater to the individual problems of learners. As pointed out in [25], the problem of improving the quality of education is quite multifaceted and intricate. However, the suggestion of correct pathways to be followed while studying important concepts, can benefit these learners greatly. Though the field of TEL Recommender system(TEL RecSys) [2] addresses this scenario of mass customization, the major factor for deciding the most appropriate learning activities is still learner's rating, review of resources and his fundamental demographic information. This may work well for e-commerce recommender systems, but similar applications in the domain of learning may not be suitable.",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 318.64135999999996), (315.05, 622.6513600000001), (571.93444, 622.6513600000001), (571.93444, 318.64135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Basically there are the two major differences between product recommendations and TEL RecSys that need to be considered. Firstly, learning is an activity that takes more time, considering the different study goals of individuals and their grasping capabilities. Also, the end objective may be variable.",
+    "page": 1,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 630.45136), (315.05, 687.45136), (572.07052, 687.45136), (572.07052, 630.45136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Corresponding author: Tel.: +82513201724, Email: dkkang@dongseo.ac.kr",
+    "page": 1,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 708.0556799999999), (45.0, 719.84736), (355.84000000000003, 719.84736), (355.84000000000003, 708.0556799999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x163321360>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Learners may wish to have different accomplishments after completion of a learning resource. Secondly, the most preferred(rated) learning path may not be pedagogically the most adequate [3]. Thus, the educational specific needs and information seeking tasks of stakeholders, make the design of learning resource recommendation quite complex [16].",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 55.551360000000045), (45.0, 124.3313599999999), (299.54, 124.3313599999999), (299.54, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Our statement of contribution in this paper is to develop a system that can effectively categorize resources based on inherent factors that affect student's learning. We aim to extract such learning domain specific attributes of learners, that have been discovered from past theoretical research. Such critical factors belong to an entirely different context and play a much more significant role, as compared to basic profile information like name, age, sex and other demographic factors. We believe that our system has the potential of improving alignment of learner's preferences with the learning resources they are using. Also, it could increase learning efficiency, through a more structured guidance that is well customized and adapted to the learner's objectives.",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 132.1313600000001), (45.0, 283.24136), (299.54048, 283.24136), (299.54048, 132.1313600000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "This paper is structured as follows: In section II.I, the technical terms used are defined. Then, in the following sections II.II and II.III, the user profile attributes are described and challenges are presented. The hypothesis, problem statement and the proposed method is described in detail in section III. Section IV talks about the experimental results and discussions. Prior work is discussed in section V. The conclusion and future work follow at the end in section VI and VII.",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 291.04136), (45.0, 395.08136), (299.5322, 395.08136), (299.5322, 291.04136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "II.I. PRELIMINARIES",
+    "page": 2,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((130.34, 414.66136), (130.34, 424.62136000000004), (214.22, 424.62136000000004), (214.22, 414.66136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "1)Learning Management system(LMS)- It is a system that assists learners in finding learning resources and guides them to make the best choices in managing these resources. It also supports these learners in achieving their goals in a specific domain. A good literature review of LMS can be found in [4]. 2)Learning pathway- A set of learning objects like books, multimedia(audio recordings, videos), images, slides etc which are packaged and organized in a sequence form a learning pathway. A formal definition of the same can be found in [5]. 3)Transfer Learning- The process of applying concepts and skills learned in one domain to another related or disjoint domain in different scenarios is called transfer learning [6]. The absence of a guide to assist learners in providing a good cross domain application context, makes an understanding of the research issues associated with transfer learning quite difficult. the kind of 4)Pedagogical adequacy(accuracy)- It education that focuses equally on five different aspects of learning- student centred tutelage with an understanding of his educational background, strategic course instruction design to learning, evaluation of student's advancement maximize towards learning objectives for knowledge retention, use of different teaching strategies, awareness regarding teaching challenges and knowing ways to handle",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 438.54136), (45.0, 719.36736), (299.54, 719.36736), (299.54, 438.54136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "is",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((226.23032, 627.09136), (226.23032, 637.05136), (235.3238, 637.05136), (235.3238, 627.09136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "the course",
+    "page": 2,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((85.52724, 685.88736), (85.52724, 695.84736), (135.24756000000008, 695.84736), (135.24756000000008, 685.88736)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "them[7]. 5)K-means clustering- Intuitively, what clustering techniques aim to achieve is finding data points which are more similar to one another than the rest of the points in n-dimensional feature space. K-means is a widely adopted clustering method that starts out by creating 'k' different clusters and assigning each data point to one of the clusters based on some standard distance measure like Euclidean, Pearson correlation etc. At every iteration, centroid of the clusters are updated with the mean value of the data points assigned to that cluster. The idea is to minimize intra cluster distance and maximize inter cluster distance. Proposed in [22], K means clustering has been a widely studied unsupervised machine learning algorithm. 6)Apriori principle- Originally presented in [23], it optimizes association analysis in large scale machine learning. Either for finding out frequent itemsets or discovering association rules in large datasets, apriori principle is applied to reduce the number of possible interesting itemsets. Measures like support and confidence the levels are established associations discovered. Apriori principle says that if an itemset is infrequent, all it's supersets will also be infrequent. At every iteration of the algorithm, candidate itemsets are pruned if their support levels are below the minimum support. The process of joining lower order itemsets based on this criteria is repeated, until no more itemsets can be created further. 7)Non negative matrix factorization(NMF)- Formally defined in [24] for learning parts of objects and combining them to get an aggregate representation, NMF derives it's roots from linear algebra. The basic idea of NMF is that it decomposes matrix A into two matrices B(features) and C(weights) and also enforces a non negative constraint on the entries of these matrices. In machine learning, it is used as a feature extraction algorithm, where the decomposed matrices represent the extracted features in the observations and their importance or relevance to the observed data.",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 55.551360000000045), (315.05, 477.54136), (569.59, 477.54136), (569.59, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "to evaluate",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((496.552, 267.5213600000001), (496.552, 277.48136), (548.68264, 277.48136), (548.68264, 267.5213600000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "II.II. USER PROFILE ATTRIBUTES",
+    "page": 2,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((374.83, 515.10136), (374.83, 525.06136), (509.83, 525.06136), (509.83, 515.10136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "User model is a distinctive feature of adaptive systems, as this information allows the system to behave differently for different users [20]. In our work, we consider the following user profile attributes for incorporating into the proposed machine learning framework to tag learning resources. The objective is to improve the pedagogical accuracy and adequacy of TEL RecSys, by suggesting resources that reflect the learner's objective and form a close match to his learning requirements. By doing so, the learner can be kept motivated to complete his learning activities in an effective and efficient manner.",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 532.86136), (315.05, 660.45136), (569.39248, 660.45136), (569.39248, 532.86136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "1)Skill level- This includes current competency level of the learner and the target skill level that is to be achieved. Based on Bloom's taxonomy and CDIO report[8], the following proficiency levels are identified:",
+    "page": 2,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 674.13136), (315.05, 719.36736), (569.4919600000001, 719.36736), (569.4919600000001, 674.13136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x16307c040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Level 1- To have experienced or been exposed to(Knowledge)- refers to the process of recalling primer knowledge on a subject",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 56.06172000000004), (63.0, 93.25135999999998), (299.36708, 93.25135999999998), (299.36708, 56.06172000000004)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Level 2- To be able to participate in and contribute to(Comprehension)- refers to the ability to describe and define what is learnt  Level 3- To be skilled in",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 97.36171999999999), (63.0, 175.81135999999992), (299.4398, 175.81135999999992), (299.4398, 97.36171999999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165748340>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Level 4- To be",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 179.92172000000005), (63.0, 189.97136), (169.37912000000003, 189.97136), (169.37912000000003, 179.92172000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "and able explain(Analysis)- refers to the process of analysis, interpretation and discussion on results",
+    "page": 3,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((81.024, 180.01136000000008), (81.024, 217.09136), (299.40932000000004, 217.09136), (299.40932000000004, 180.01136000000008)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "to understand",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((207.32672000000002, 180.01136000000008), (207.32672000000002, 189.97136), (273.1324400000001, 189.97136), (273.1324400000001, 180.01136000000008)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Level 5- To be able to lead or innovate in(Synthesis)- refers to the process of creation of thoughts and development of new ideas",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 221.20172000000002), (63.0, 258.40135999999995), (302.06, 258.40135999999995), (302.06, 221.20172000000002)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Level 6- To be able to assess and evaluate(Evaluate)- refers to the process of estimation and evaluation of the concepts learnt",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 262.51171999999997), (63.0, 299.68136), (299.54, 299.68136), (299.54, 262.51171999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "2)Preferred Learning strategy- This basically refers to the intended way of understanding information, solving problems, checking and evaluating the knowledge gained. Based on the strategic instruction model proposed by [9], we have included the following five learning strategies for the purpose of our study:",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 303.40135999999995), (45.0, 372.77), (299.54, 372.77), (299.54, 303.40135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Assignment Completion Strategy- designed to enable students to complete and hand in the assignments on time",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 374.47172), (63.0, 411.64136), (299.46332000000007, 411.64136), (299.46332000000007, 374.47172)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Test-Taking Strategy- designed to be used while taking classroom(physical/virtual) tests, with students allocating time and certain priority to each section of the test",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 415.77172), (63.0, 466.50136000000003), (299.43176000000005, 466.50136000000003), (299.43176000000005, 415.77172)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Mnemonic Strategy- designed",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 470.61172), (63.0, 480.66136), (214.88792, 480.66136), (214.88792, 470.61172)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "to help students simple",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((221.51132, 470.70135999999997), (221.51132, 494.22136), (299.44832, 494.22136), (299.44832, 470.70135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "remember representations(diagrams) and mnemonic codes.  Self-Questioning Strategy- designed to help students create their own motivation while reading by creating questions in mind, predicting answers, searching, verifying and paraphrasing them",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 484.26135999999997), (63.0, 562.62136), (301.89696000000004, 562.62136), (301.89696000000004, 484.26135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "complex",
+    "page": 3,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((135.94344, 484.26135999999997), (135.94344, 494.22136), (172.61616000000004, 494.22136), (172.61616000000004, 484.26135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "concepts",
+    "page": 3,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((184.87692000000004, 484.26135999999997), (184.87692000000004, 494.22136), (222.26676000000006, 494.22136), (222.26676000000006, 484.26135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "using",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((234.52752000000007, 484.26135999999997), (234.52752000000007, 494.22136), (258.38172000000003, 494.22136), (258.38172000000003, 484.26135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Error Monitoring Strategy- designed to help students",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 566.73172), (63.0, 576.78136), (299.51564, 576.78136), (299.51564, 566.73172)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "independently detect and correct errors",
+    "page": 3,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((81.024, 580.4113600000001), (81.024, 590.37136), (239.42000000000002, 590.37136), (239.42000000000002, 580.4113600000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "Teamwork Strategy- designed to provide a framework for organizing and completing specific tasks in small groups",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.0, 594.48172), (63.0, 631.6513600000001), (299.35760000000005, 631.6513600000001), (299.35760000000005, 594.48172)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "ListItem",
+    "text": "3) Available Learning time - This includes the number of time units(hours per day and number of weeks), and indicates the time allotted for the purpose of study in an informal educational setting.",
+    "page": 3,
+    "category": "ListItem",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 634.9), (45.0, 686.01136), (299.42564000000004, 686.01136), (299.42564000000004, 634.9)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "4)Preferred Presentation style- Because of the difference in cognitive processing , we consider visual, textual and auditory presentation styles. More specifically, we include:  Portable document format(pdf) documents  Power points  Web pages(html)  Videos  Audio books and resources",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 55.67136000000005), (315.05, 163.5713599999999), (569.45824, 163.5713599999999), (569.45824, 55.67136000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "An alternative to the above styles include presentation of examples, presentation of theoretical knowledge and practical examples [10]. Over and above all these explicit factors that can be gathered by an initial questionnaire, other implicit factors like effort of the learner and his willingness to obey and follow the recommendations can be measured during course progress [11][12].",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 167.17136000000005), (315.05, 258.52135999999996), (569.36452, 258.52135999999996), (569.36452, 167.17136000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "II.III. CHALLENGES AND MOTIVATION",
+    "page": 3,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((365.95, 291.64135999999996), (365.95, 301.60136), (518.59, 301.60136), (518.59, 291.64135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Though technology alone cannot solve complex problems like providing universal and high quality education, but it can surely improve the quality of solutions and their impact on learning. This is the driving factor behind our work.",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 309.40135999999995), (315.05, 360.04136), (569.3387599999999, 360.04136), (569.3387599999999, 309.40135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "1)We notice that a major issue in TEL RecSys is the use of only learner ratings, reviews and basic profile information for providing tailored learning pathways. Other critical factors related to student's academic profile and interests are left out. This leads to inaccurate and unsatisfactory recommendations most of the times. However, because learning takes place in extremely diverse and rich environments, we include the other dimensions as stated in Section II.I to make the learning model more helpful and close to real life behaviour. Because these user specific attributes do not have a direct link with the learning resources and due to the unavailability of tagged data for these resources, there is a need to incorporate such parameters into the recommendation framework. And our proposed solution finds a way to fill this missing link by using machine learning algorithms to accomplish the task at hand.",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 375.40135999999995), (315.05, 550.02136), (569.57092, 550.02136), (569.57092, 375.40135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "2)The other challenge while applying machine learning to make appropriate sense of the user profile attributes is that, though skill inferred learning numerically, learning strategy and presentation style are very nominal in nature. Deriving similarities between them is quite difficult numerically. We cannot represent such nominal variables on a continuous scale and perform arithmetic operations on them. For example, it's difficult to comprehend, how similar or dissimilar test taking and mnemonic learning strategies are, without any training data. This fact has useful like Euclidean, implications, because distance measures",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 563.58136), (315.05, 709.16736), (569.59912, 709.16736), (569.59912, 563.58136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "levels and",
+    "page": 3,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((375.86576, 590.73136), (375.86576, 600.69136), (424.0622000000001, 600.69136), (424.0622000000001, 590.73136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "time can be",
+    "page": 3,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((470.37620000000004, 590.73136), (470.37620000000004, 600.69136), (529.80752, 600.69136), (529.80752, 590.73136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1657484f0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Pearson correlation etc. can't be applied to address such a situation. Thus, there is a need to characterize the data further to leverage these nominal attributes.",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 55.551360000000045), (45.0, 92.65135999999995), (299.2489199999999, 92.65135999999995), (299.2489199999999, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "III. METHODOLOGY",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((131.66, 125.77136000000007), (131.66, 135.73136), (212.78, 135.73136), (212.78, 125.77136000000007)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Our methodology for tagging learning resources consists of deriving a subset of learners who have rated the learning resource above a particular threshold, finding a relation between their nominal attribute parameters, grouping these learners to find the cluster of largest size, and using the most frequently occurring learning profile attributes as a more informative tag for the learning resource.",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 149.53136000000006), (45.0, 230.05135999999993), (299.44436, 230.05135999999993), (299.44436, 149.53136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "III.I. HYPOTHESIS",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((135.5, 243.8813600000001), (135.5, 253.84136), (210.98000000000002, 253.84136), (210.98000000000002, 243.8813600000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "In order to arrive at the formal algorithm design and answer the compound key question of our research, i.e., how to establish the link between learning resources and user profile attributes that play a major role in learning(as discussed above), we formulate our research hypothesis as follows : H1: Learning resources, apart from being distinguishable solely by learner ratings, can be more efficiently categorized and study motives. to H2: Incorporating user centric attributes for suggesting customized learning pathways leads to pedagogically more accurate and satisfactory recommendations for the learner.",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 267.6413600000001), (45.0, 395.44136000000003), (302.06, 395.44136000000003), (302.06, 267.6413600000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "tagged",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((72.93780000000001, 350.08135999999996), (72.93780000000001, 360.04136), (101.94132, 360.04136), (101.94132, 350.08135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "according",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((112.99692, 350.08135999999996), (112.99692, 360.04136), (154.80900000000005, 360.04136), (154.80900000000005, 350.08135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "learner",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((187.07940000000005, 350.08135999999996), (187.07940000000005, 360.04136), (217.26816, 360.04136), (217.26816, 350.08135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "We address the first hypothesis in this paper and formalize it as follows: Let ‘S’ be a System L={ U={ A={ R={1,2,3,4,5,...,10} be set of possible ratings. where m, n",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 403.26135999999997), (45.0, 512.46136), (299.48852, 512.46136), (299.48852, 403.26135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "1,23,.....,,mllll",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((61.51, 436.9599918625), (61.51, 452.71), (118.510187987281, 452.71), (118.510187987281, 436.9599918625)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "} be a set of learning resources. } be a set of learners. } be a set of learner profile attributes.",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((118.46, 439.86136), (118.46, 476.58136), (277.7, 476.58136), (277.7, 439.86136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "1,2,3,....,nuuuu",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((62.71, 453.76032070623), (62.71, 465.06), (122.81104308193599, 465.06), (122.81104308193599, 453.76032070623)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "1,2,3,4,5aaaaa",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((62.56, 466.16000070312504), (62.56, 477.41), (125.5625788, 477.41), (125.5625788, 466.16000070312504)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "1a",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 514.509840659385), (45.06, 525.06), (57.06011084741701, 525.06), (57.06011084741701, 514.509840659385)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "2a",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 528.4100005625), (45.06, 537.41), (57.06057267332, 537.41), (57.06057267332, 528.4100005625)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((65.11, 502.609566159812), (65.11, 512.36), (74.80944769536, 512.36), (74.80944769536, 502.609566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "N current skill level target skill level",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((72.744, 502.50136), (72.744, 536.58136), (144.80460000000002, 536.58136), (144.80460000000002, 502.50136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((57.06, 513.059941453629), (57.06, 525.06), (72.760698901056, 525.06), (72.760698901056, 513.059941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((144.91, 514.359566159812), (144.91, 524.11), (154.60944769536, 524.11), (154.60944769536, 514.359566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "{1,2,3,4,5,6}",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((154.58, 514.26136), (154.58, 524.22136), (212.06, 524.22136), (212.06, 514.26136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((57.06, 525.409941453629), (57.06, 537.41), (72.760698901056, 537.41), (72.760698901056, 525.409941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((136.86, 526.759967161792), (136.86, 536.46), (146.55944769536, 536.46), (146.55944769536, 526.759967161792)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "{1,2,3,4,5,6}, ui U , a2>a1",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((146.54, 526.62136), (146.54, 537.38968), (275.18, 537.38968), (275.18, 526.62136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((209.11, 526.7604530429439), (209.11, 536.46), (218.80986850675203, 536.46), (218.80986850675203, 526.7604530429439)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((225.56, 526.759967161792), (225.56, 536.46), (235.25944769536, 536.46), (235.25944769536, 526.759967161792)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "(i=1 to n)",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 538.98136), (45.0, 548.94136), (115.67, 548.94136), (115.67, 538.98136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "3a",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 551.7104006156001), (45.06, 561.56), (57.06011084741701, 561.56), (57.06011084741701, 551.7104006156001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((59.56, 549.559941453629), (59.56, 561.56), (75.3103801, 561.56), (75.3103801, 549.559941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "learning strategy {1,2,3,4,5}",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((75.264, 550.74136), (75.264, 560.70136), (210.62, 560.70136), (210.62, 550.74136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((141.66, 550.859967161792), (141.66, 560.56), (151.35944769536, 560.56), (151.35944769536, 550.859967161792)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "/*nominal attribute*/",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 562.14136), (45.0, 572.10136), (145.55, 572.10136), (145.55, 562.14136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "4a",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 574.6104006156), (45.06, 584.46), (57.059889442989004, 584.46), (57.059889442989004, 574.6104006156)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((59.56, 572.459941453629), (59.56, 584.46), (75.3103801, 584.46), (75.3103801, 572.459941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "preferred presentation style",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((75.264, 573.69136), (75.264, 583.6513600000001), (184.22639999999998, 583.6513600000001), (184.22639999999998, 573.69136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((184.36, 573.759566159812), (184.36, 583.51), (194.10984565696, 583.51), (194.10984565696, 573.759566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "{1,2,3,4,5}",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((194.06, 573.69136), (194.06, 583.6513600000001), (243.98000000000002, 583.6513600000001), (243.98000000000002, 573.69136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "/*nominal attribute*/",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((62.28, 585.844), (62.28, 594.844), (139.91, 594.844), (139.91, 585.844)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "5a",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 597.560080612495), (45.06, 607.36), (57.06011084741701, 607.36), (57.06011084741701, 597.560080612495)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((59.56, 595.3599414536291), (59.56, 607.36), (75.3103801, 607.36), (75.3103801, 595.3599414536291)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "learning time N /*discretized as different",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((75.264, 596.61136), (75.264, 606.57136), (258.26, 606.57136), (258.26, 596.61136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((127.86, 596.7099671617921), (127.86, 606.41), (137.55944769536, 606.41), (137.55944769536, 596.7099671617921)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "ranges*/",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 608.97136), (45.0, 618.93136), (80.994, 618.93136), (80.994, 608.97136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 620.810625184416), (45.06, 633.56), (60.760698901056, 633.56), (60.760698901056, 620.810625184416)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "iyr",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 634.160112035793), (45.06, 646.86), (60.05959856508301, 646.86), (60.05959856508301, 634.160112035793)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((60.76, 619.5099414536289), (60.76, 631.51), (76.51038009999999, 631.51), (76.51038009999999, 619.5099414536289)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((60.06, 633.909941453629), (60.06, 645.91), (75.760698901056, 645.91), (75.760698901056, 633.909941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "user ui 's profile attribute aj (i=1 to n, j=1 to 5) user ui 's rating of learning resource ly , (i=1 to",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((75.744, 620.73136), (75.744, 645.89968), (270.98, 645.89968), (270.98, 620.73136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "n, y=1 to m) Problem Statement:",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 648.45136), (45.0, 670.2913599999999), (132.83, 670.2913599999999), (132.83, 648.45136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 670.510416851472), (45.06, 681.66), (56.359713208504004, 681.66), (56.359713208504004, 670.510416851472)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "ly L, tag ly with each aj A , (y=1 to m , j=1 to 5)",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((56.28, 671.85136), (56.28, 682.61968), (258.5, 682.61968), (258.5, 671.85136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((61.96, 673.510157979834), (61.96, 681.66), (70.15974835232001, 681.66), (70.15974835232001, 673.510157979834)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((150.06, 673.359566159812), (150.06, 683.11), (159.75944769536, 683.11), (159.75944769536, 673.359566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "III.II. SOLUTION & APPROACH FOLLOWED",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((357.79, 55.551360000000045), (357.79, 65.51135999999997), (526.87, 65.51135999999997), (526.87, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Step 1- Alg. \"build_learner_subset\" input- learner set output- learner subset based on rating threshold criteria a. to n, y=1 to m) b. to n, j= 1 to 5)",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 79.69136000000003), (315.05, 164.65135999999995), (548.11, 164.65135999999995), (548.11, 79.69136000000003)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "iyr",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((413.81, 113.460524882453), (413.81, 127.00999999999999), (427.260175240931, 127.00999999999999), (427.260175240931, 113.460524882453)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "0",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((508.96, 114.7601324253119), (508.96, 126.05999999999995), (520.96057267332, 126.05999999999995), (520.96057267332, 114.7601324253119)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "yLl",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((322.01, 114.30991343829203), (322.01, 127.00999999999999), (354.309431598293, 127.00999999999999), (354.309431598293, 114.30991343829203)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "0",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((456.66, 114.7601324253119), (456.66, 126.05999999999995), (467.95999325224, 126.05999999999995), (467.95999325224, 114.7601324253119)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "0",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((437.11, 114.7601324253119), (437.11, 126.05999999999995), (449.11057267332, 126.05999999999995), (449.11057267332, 114.7601324253119)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((427.26, 114.55999952721106), (427.26, 125.11000000000001), (437.110647810441, 125.11000000000001), (437.110647810441, 114.55999952721106)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((467.96, 115.35990743175398), (467.96, 125.11000000000001), (476.9602995125, 125.11000000000001), (476.9602995125, 115.35990743175398)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": ", 10 and /*build learner subset*/",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((449.11, 115.21136000000001), (449.11, 138.284), (539.83, 138.284), (539.83, 115.21136000000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "N (i=1",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((530.74, 115.21136000000001), (530.74, 125.17135999999994), (559.71364, 125.17135999999994), (559.71364, 115.21136000000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((389.56, 115.00994145362904), (389.56, 127.00999999999999), (402.309622780708, 127.00999999999999), (402.309622780708, 115.00994145362904)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "build V U |",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((354.31, 115.21136000000001), (354.31, 125.17135999999994), (414.01300000000003, 125.17135999999994), (414.01300000000003, 115.21136000000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((520.96, 115.35956615981206), (520.96, 125.11000000000001), (530.70984565696, 125.11000000000001), (530.70984565696, 115.35956615981206)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": ",iVu",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((322.61, 139.76007307670795), (322.61, 153.15999999999997), (361.60915449332003, 153.15999999999997), (361.60915449332003, 139.76007307670795)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((397.96, 140.46030368352797), (397.96, 153.15999999999997), (414.41023698947197, 153.15999999999997), (414.41023698947197, 140.46030368352797)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "consider",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((361.63, 140.29136000000005), (361.63, 150.25135999999998), (397.93420000000003, 150.25135999999998), (397.93420000000003, 140.29136000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "as a point in 5-D feature space (i= 1",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((414.43, 140.29136000000005), (414.43, 150.25135999999998), (562.5035200000001, 150.25135999999998), (562.5035200000001, 140.29136000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (i) Alg. \"build_learner_subset\"",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((367.99, 173.05136000000005), (367.99, 183.01135999999997), (516.55, 183.01135999999997), (516.55, 173.05136000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "In Fig (i), for all learning resources, we get a list of learners who have rated them greater than a threshold value (e.g.- greater than 9/10). This list is an indicative of learners who have preferred those resources over and above others. For experimentation, we tune this threshold value, so that we get a learner subset that is big enough to be tested for future steps.",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 196.57136000000003), (315.05, 265.36136), (569.59, 265.36136), (569.59, 196.57136000000003)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Step 2- Alg. \"nominal_attributes_quantify\" input- number of learners using nominal attribute parameter pair (p,q) in common output- numerical values for nominal attribute parameters",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 273.76135999999997), (315.05, 318.64136), (568.9305999999999, 318.64136), (568.9305999999999, 273.76135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.06, 319.360018374112), (315.06, 330.56), (325.610191005748, 330.56), (325.610191005748, 319.360018374112)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "nominal attributes(a3, a4)",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((325.61, 320.68136), (325.61, 331.44968), (429.76, 331.44968), (429.76, 320.68136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "a. Construct matrix A5*5 with each row and column representing specific nominal attribute parameters, and Aij = no. of users who have parameter i and j in common.",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((351.07, 332.44136), (351.07, 377.68136), (569.4708400000001, 377.68136), (569.4708400000001, 332.44136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "b. Apply NMF to split A into B & C: A5*5=B5*k Ck*5 where Ck*5",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((351.07, 379.48136), (351.07, 413.78968), (517.27, 413.78968), (517.27, 379.48136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((405.66, 389.81032070623), (405.66, 401.11), (415.35944769536, 401.11), (415.35944769536, 389.81032070623)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((418.26, 401.809941453629), (418.26, 413.81), (433.960698901056, 413.81), (433.960698901056, 401.809941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "features matrix (rows= features, columns= nominal attribute parameters), and Cij= weight of each nominal attribute parameter to the feature extracted,",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((366.91, 403.00136), (366.91, 448.86136), (569.54332, 448.86136), (569.54332, 403.00136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((409.96, 449.45994145362897), (409.96, 461.46), (425.71038009999995, 461.46), (425.71038009999995, 449.45994145362897)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "weight matrix (rows= nominal attribute parameters, columns=features), and Bij= weight of each feature in nominal attribute parameter c. Now, (i)",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((351.07, 450.66136), (351.07, 522.06136), (571.94656, 522.06136), (571.94656, 450.66136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "and B5*k",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((351.07, 450.66136), (351.07, 461.42967999999996), (405.91, 461.42967999999996), (405.91, 450.66136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((378.91, 508.76041685147203), (378.91, 519.9100000000001), (389.460191005748, 519.9100000000001), (389.460191005748, 508.76041685147203)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "rows in B, A. Consider maximum(value). B. Choose feature row in C, corresponding to max (value). C. Obtain an ordering that defines how similar (important) each nominal attribute parameter is to the other. D. Construct matrix D where each row identifies one linear ordering .",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((387.07, 510.06136), (387.07, 616.17136), (571.95664, 616.17136), (571.95664, 510.06136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "(ii)Make matrix D symmetric by replacing Dij",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((367.03, 617.97136), (367.03, 628.73968), (574.63, 628.73968), (574.63, 617.97136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "with minimum(Dij, Dji).",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((384.19, 629.73136), (384.19, 640.49968), (480.52, 640.49968), (480.52, 629.73136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 4,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((381.91, 639.910122540584), (381.91, 651.91), (392.460191005748, 651.91), (392.460191005748, 639.910122540584)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "(iii) (Each average value represents possible",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 642.09136), (315.05, 663.81136), (549.67, 663.81136), (549.67, 642.09136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "rows in D, take average score",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((392.47, 642.09136), (392.47, 652.05136), (515.35, 652.05136), (515.35, 642.09136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "numerical values that the nominal attribute can take).",
+    "page": 4,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((384.19, 665.61136), (384.19, 687.33136), (569.4559599999999, 687.33136), (569.4559599999999, 665.61136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (ii) Alg. \"nominal_attributes_quantify\"",
+    "page": 4,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((350.95, 695.72736), (350.95, 705.68736), (533.59, 705.68736), (533.59, 695.72736)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633de050>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Secondly, we apply NMF as shown in Fig (ii). NMF will extract features from nominal attribute parameters and output how much importance does each feature have with respect to the other parameters in terms of weights. And, because nominal attribute parameters cannot be both similar to each other by different numerical metrics, we make matrix D symmetric. The average of each linear ordering in matrix D indicates an average similarity with other nominal attribute parameters. Thus, the output of this step is a numerical value for each nominal attribute parameter, which can be used in the next step.",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 55.551360000000045), (45.0, 183.13135999999997), (299.54, 183.13135999999997), (299.54, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Step 3.1- Alg. \"group_learner\" input- data points for every learner, with each coordinate representing different profile attributes output- cluster with largest number of learners S Pick first point pij at random S n=1 choose a value k N while n k { Add point",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 191.53136000000006), (45.0, 334.00136000000003), (282.5006399999999, 334.00136000000003), (282.5006399999999, 191.53136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((67.36, 237.90967305066806), (67.36, 251.36), (77.210647810441, 251.36), (77.210647810441, 237.90967305066806)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "{",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((62.52, 238.45136000000002), (62.52, 248.41135999999995), (67.30080000000001, 248.41135999999995), (67.30080000000001, 238.45136000000002)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "}",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((77.184, 238.45136000000002), (77.184, 248.41135999999995), (84.47399999999999, 248.41135999999995), (84.47399999999999, 238.45136000000002)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((50.56, 240.31013608749993), (50.56, 249.30999999999995), (62.560529605792006, 249.30999999999995), (62.560529605792006, 240.31013608749993)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((50.56, 263.4599414536291), (50.56, 275.46000000000004), (66.3103801, 275.46000000000004), (66.3103801, 263.4599414536291)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "S { pij }",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((66.24, 264.6413600000001), (66.24, 275.40968), (107.27, 275.40968), (107.27, 264.6413600000001)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((71.81, 266.20984051875996), (71.81, 274.51), (81.560135063042, 274.51), (81.560135063042, 266.20984051875996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((111.16, 288.909967161792), (111.16, 298.61), (120.90984565696, 298.61), (120.90984565696, 288.909967161792)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "/*k=number of clusters*/ /*clusters chosen already*/",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((183.26, 289.514), (183.26, 310.48136), (285.14, 310.48136), (285.14, 289.514)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((74.36, 301.3601360875), (74.36, 310.36), (82.610034545138, 310.36), (82.610034545138, 301.3601360875)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "'q",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((90.31, 323.459673050668), (90.31, 336.91), (103.15946462404901, 336.91), (103.15946462404901, 323.459673050668)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "to S, such that",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((103.1, 324.04136), (103.1, 334.00136000000003), (164.51000000000002, 334.00136000000003), (164.51000000000002, 324.04136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "'q",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.06, 337.010072611708), (45.06, 351.31), (58.609284179973, 351.31), (58.609284179973, 337.010072611708)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((64.61, 338.560625184416), (64.61, 351.31), (80.3603801, 351.31), (80.3603801, 338.560625184416)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "and min{distance( - {",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((80.304, 338.44136), (80.304, 377.20136), (155.71128000000002, 377.20136), (155.71128000000002, 338.44136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "'q",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((155.81, 338.56023341262403), (155.81, 351.31), (167.809889442989, 351.31), (167.809889442989, 338.56023341262403)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": ",S)} > distance(",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((167.78, 338.44136), (167.78, 348.40136), (230.55788, 348.40136), (230.55788, 338.44136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((58.61, 342.3099047171438), (58.61, 348.31), (64.609733334304, 348.31), (64.609733334304, 342.3099047171438)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "( S S n=n+1 } Step 3.2 While any point has changed in cluster made: /*K nearest neighbour based clustering*/ {",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 352.84135999999995), (45.0, 449.10136), (228.98000000000002, 449.10136), (228.98000000000002, 352.84135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "iq",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((48.41, 352.96062518441596), (48.41, 365.71), (61.159622780708, 365.71), (61.159622780708, 352.96062518441596)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((61.16, 352.95956615981197), (61.16, 362.71), (70.85944769535999, 362.71), (70.85944769535999, 352.95956615981197)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((70.86, 352.96062518441596), (70.86, 365.71), (84.310644601056, 365.71), (84.310644601056, 352.96062518441596)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "'q",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((87.56, 352.960233412624), (87.56, 365.71), (99.559889442989, 365.71), (99.559889442989, 352.960233412624)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": ", i=1 to n, j=1 to 5) }",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((99.504, 352.84135999999995), (99.504, 377.20136), (178.07000000000002, 377.20136), (178.07000000000002, 352.84135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((50.56, 366.76032070623), (50.56, 378.06), (65.56017582668, 378.06), (65.56017582668, 366.76032070623)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "'q",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((91.16, 367.36023341262404), (91.16, 380.11), (103.159889442989, 380.11), (103.159889442989, 367.36023341262404)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((73.61, 368.109821075), (73.61, 377.11), (86.359622780708, 377.11), (86.359622780708, 368.109821075)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "iq",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((230.71, 339.310122540584), (230.71, 351.31), (243.409943315389, 351.31), (243.409943315389, 339.310122540584)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": ",S)",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((243.41, 338.44136), (243.41, 348.40136), (267.33392000000003, 348.40136), (267.33392000000003, 338.44136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((52.61, 449.36012254058403), (52.61, 461.36), (63.909713208504, 461.36), (63.909713208504, 449.36012254058403)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((63.91, 452.36012254058403), (63.91, 464.36), (78.910121994208, 464.36), (78.910121994208, 452.36012254058403)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "(i=1 to n,j=1 to 5)",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((78.864, 451.50136), (78.864, 461.46136), (155.75, 461.46136), (155.75, 451.50136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((77.81, 464.56001837411196), (77.81, 475.76), (88.360191005748, 475.76), (88.360191005748, 464.56001837411196)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "Sa d(Sa,",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 465.90135999999995), (45.0, 491.30968), (124.78999999999999, 491.30968), (124.78999999999999, 465.90135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "S (a=1 to k) )=",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((106.46, 465.90135999999995), (106.46, 490.50136000000003), (161.63, 490.50136000000003), (161.63, 465.90135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((96.76, 466.009566159812), (96.76, 475.76), (106.50984565696001, 475.76), (106.50984565696001, 466.009566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((127.36, 480.660303683528), (127.36, 493.36), (143.810236989472, 493.36), (143.810236989472, 480.660303683528)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "221155,.......,aiaiSPSP",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((157.86, 476.1098138125), (157.86, 496.36), (283.8636351, 496.36), (283.8636351, 476.1098138125)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((157.86, 476.1098138125), (157.86, 496.36), (283.8636351, 496.36), (283.8636351, 476.1098138125)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "/*Euclidean distance metric*/",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((96.864, 496.98136), (96.864, 506.94136000000003), (213.38, 506.94136000000003), (213.38, 496.98136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((143.96, 507.91080632736004), (143.96, 521.36), (160.360555790528, 521.36), (160.360555790528, 507.91080632736004)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "x[a]=min{d(Sa, get l=a which corresponds to min(x[]) Sl=Sl",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 508.50136), (45.0, 545.42968), (231.62, 545.42968), (231.62, 508.50136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": ")}",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((160.34, 508.50136), (160.34, 518.46136), (170.99, 518.46136), (170.99, 508.50136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((100.61, 534.759566159812), (100.61, 544.51), (113.359622780708, 544.51), (113.359622780708, 534.759566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((113.36, 534.760625184416), (113.36, 547.51), (129.060698901056, 547.51), (129.060698901056, 534.760625184416)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((55.16, 547.760416851472), (55.16, 558.91), (65.710191005748, 558.91), (65.710191005748, 547.760416851472)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "every Sl ,calculate mean of points (M) in that cluster",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((65.64, 549.06136), (65.64, 559.82968), (276.74, 559.82968), (276.74, 549.06136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Sl } Step 3.3 Reduce ‘k’ till average diameter D increases by a very large factor /*choose optimal no. of clusters*/ (p, q) D= max(d(p, q)) Step 3.4 Choose cluster with largest number of attribute itemsets C max{Size(Sa )}",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 560.82136), (45.0, 669.29968), (288.48215999999996, 669.29968), (288.48215999999996, 560.82136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Mean(M)",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((97.584, 560.82136), (97.584, 570.78136), (140.87, 570.78136), (140.87, 560.82136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((82.61, 561.910000703125), (82.61, 573.16), (97.61017582668, 573.16), (97.61017582668, 561.910000703125)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((113.46, 618.560122540584), (113.46, 630.56), (124.759713208504, 630.56), (124.759713208504, 618.560122540584)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((149.11, 620.809566159812), (149.11, 630.56), (158.80944769536, 630.56), (158.80944769536, 620.809566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ijp",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((158.81, 620.11080632736), (158.81, 633.56), (175.260236989472, 633.56), (175.260236989472, 620.11080632736)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((51.66, 659.56032070623), (51.66, 670.86), (66.66017582667999, 670.86), (66.66017582667999, 659.56032070623)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (iii) Alg. \"group_learner\"",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((108.74, 677.49136), (108.74, 687.45136), (235.70000000000002, 687.45136), (235.70000000000002, 677.49136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Now, as shown in Fig (iii), in the subset of learners identified, we apply clustering to group learners based on user profile attributes(discussed in Sec II.I). Each learner is a five dimensional point and the coordinates represent his attributes. We then pick the cluster having largest size. This cluster further refines the users according to certain set of user profile attributes. Intuitively, it is a representative of certain pattern in learning behaviour.",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 55.551360000000045), (315.05, 147.85136), (569.4475600000001, 147.85136), (569.4475600000001, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Step 4- Alg. \"frequent_attributes_filter\" input- data points of the largest cluster chosen output- most frequently occurring user profile attributes Choose support level sl",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 156.25135999999998), (315.05, 201.49136), (553.51, 201.49136), (553.51, 156.25135999999998)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((413.46, 191.70996716179195), (413.46, 201.40999999999997), (423.15944769536, 201.40999999999997), (423.15944769536, 191.70996716179195)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "{0,..,1}and sl R",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((423.19, 191.53136000000006), (423.19, 203.53135999999995), (507.67, 203.53135999999995), (507.67, 191.53136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((481.51, 191.70996716179195), (481.51, 201.40999999999997), (491.20944769536, 201.40999999999997), (491.20944769536, 191.70996716179195)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "/*association analysis*/",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((332.33, 205.33136000000002), (332.33, 215.29135999999994), (431.08, 215.29135999999994), (431.08, 205.33136000000002)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "L1 for(k=2,Lk-1 { ck",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 217.09136), (315.05, 269.04967999999997), (362.71000000000004, 269.04967999999997), (362.71000000000004, 217.09136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "{1 itemsets}",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((339.29, 217.09136), (339.29, 227.05135999999993), (391.36, 227.05135999999993), (391.36, 217.09136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((324.31, 218.21032070622994), (324.31, 229.51), (339.31017582668, 229.51), (339.31017582668, 218.21032070622994)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((373.96, 229.3599918625), (373.96, 245.11), (383.70984565696, 245.11), (383.70984565696, 229.3599918625)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((362.71, 230.80960070627498), (362.71, 242.11), (373.96037439062496, 242.11), (373.96037439062496, 230.80960070627498)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": ",k++)",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((383.71, 230.77136000000007), (383.71, 240.73136), (408.28000000000003, 240.73136), (408.28000000000003, 230.77136000000007)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((403.16, 256.160122540584), (403.16, 268.15999999999997), (414.4100330625, 268.15999999999997), (414.4100330625, 256.160122540584)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "{c|c=a",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((347.71, 258.28136000000006), (347.71, 268.24136), (373.23747999999995, 268.24136), (373.23747999999995, 258.28136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((373.26, 258.409566159812), (373.26, 268.15999999999997), (385.959943315389, 268.15999999999997), (385.959943315389, 258.409566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "{b}",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((385.99, 258.28136000000006), (385.99, 268.24136), (403.09132, 268.24136), (403.09132, 258.28136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((332.71, 259.3603207062299), (332.71, 270.65999999999997), (347.71017582668, 270.65999999999997), (347.71017582668, 259.3603207062299)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "a",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((414.43, 258.28136000000006), (414.43, 268.24136), (418.85224, 268.24136), (418.85224, 258.28136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((418.86, 258.409566159812), (418.86, 268.15999999999997), (428.55944769536, 268.15999999999997), (428.55944769536, 258.409566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Lk-1",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((428.59, 258.28136000000006), (428.59, 270.28135999999995), (447.25, 270.28135999999995), (447.25, 258.28136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((447.31, 255.41062518441595), (447.31, 268.15999999999997), (459.310275267372, 268.15999999999997), (459.310275267372, 255.41062518441595)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "b",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((459.31, 258.28136000000006), (459.31, 268.24136), (464.29, 268.24136), (464.29, 258.28136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((464.36, 258.409566159812), (464.36, 268.15999999999997), (474.05944769536, 268.15999999999997), (474.05944769536, 258.409566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "k",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((474.06, 258.410388200448), (474.06, 280.16), (488.359671439585, 280.16), (488.359671439585, 258.410388200448)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Lk-1",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((488.38, 260.32136), (488.38, 270.96968000000004), (502.90000000000003, 270.96968000000004), (502.90000000000003, 260.32136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((502.86, 255.41062518441595), (502.86, 268.15999999999997), (514.860275267372, 268.15999999999997), (514.860275267372, 255.41062518441595)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((522.41, 257.10994145362906), (522.41, 269.11), (532.15984565696, 269.11), (532.15984565696, 257.10994145362906)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "b a}",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((514.9, 258.28136000000006), (514.9, 268.24136), (543.91, 268.24136), (543.91, 258.28136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((325.16, 280.360018374112), (325.16, 291.56), (336.4100330625, 291.56), (336.4100330625, 280.360018374112)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ti C",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((336.41, 281.68136), (336.41, 292.44968), (359.8, 292.44968), (359.8, 281.68136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((340.96, 281.809566159812), (340.96, 291.56), (350.70984565696, 291.56), (350.70984565696, 281.809566159812)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "/*for each learner record ti in the cluster*/",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((384.19, 281.68136), (384.19, 292.346), (536.35, 292.346), (536.35, 281.68136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "{ ct",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 293.44136), (315.05, 317.28968), (356.59144000000003, 317.28968), (356.59144000000003, 293.44136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((411.06, 303.660303683528), (411.06, 316.36), (423.060275267372, 316.36), (423.060275267372, 303.660303683528)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "{c|c ct, c.count++; /*maintain count of frequency*/",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((371.59, 306.52135999999996), (371.59, 330.60967999999997), (555.3100000000001, 330.60967999999997), (555.3100000000001, 306.52135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((389.56, 306.659967161792), (389.56, 316.36), (399.30984565696, 316.36), (399.30984565696, 306.659967161792)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ck",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((399.31, 306.52135999999996), (399.31, 317.28968), (411.01, 317.28968), (411.01, 306.52135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "c",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((423.07, 306.52135999999996), (423.07, 316.48136), (427.49224, 316.48136), (427.49224, 306.52135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((427.51, 306.309941453629), (427.51, 318.31), (439.510275267372, 318.31), (439.510275267372, 306.309941453629)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ti}",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((439.51, 306.52135999999996), (439.51, 317.28968), (451.36, 317.28968), (451.36, 306.52135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((356.56, 307.61032070623), (356.56, 318.91), (371.56017582668, 318.91), (371.56017582668, 307.61032070623)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((350.36, 318.560416851472), (350.36, 329.71), (361.6100330625, 329.71), (361.6100330625, 318.560416851472)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "c",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((361.63, 319.84135999999995), (361.63, 329.80136), (366.05224, 329.80136), (366.05224, 319.84135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((366.06, 319.95956615981197), (366.06, 329.71), (375.75944769536, 329.71), (375.75944769536, 319.95956615981197)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "} Lk ck|c.count>sl} count greater than min. support level*/ } return L=",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 331.60136), (315.05, 388.00136000000003), (457.12, 388.00136000000003), (457.12, 331.60136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "{c",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((340.85, 343.36136), (340.85, 353.32136), (350.07224, 353.32136), (350.07224, 343.36136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((350.11, 343.50996716179196), (350.11, 353.21), (359.80944769536, 353.21), (359.80944769536, 343.50996716179196)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "/*include learner itemsets with",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((436.03, 343.36136), (436.03, 353.32136), (563.731, 353.32136), (563.731, 343.36136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "",
+    "page": 5,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((325.86, 344.46032070623), (325.86, 355.76), (340.86017582668, 355.76), (340.86017582668, 344.46032070623)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "k",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((355.51, 376.61023876306604), (355.51, 399.91), (370.509499275005, 399.91), (370.509499275005, 376.61023876306604)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Lk",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((370.51, 380.08135999999996), (370.51, 390.72968), (385.81, 390.72968), (385.81, 380.08135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "/*returns most frequently occurring learner profile attributes*/",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 400.48136), (315.05, 410.44136000000003), (543.4300000000001, 410.44136000000003), (543.4300000000001, 400.48136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (iv) Alg. \"frequent_attributes_filter\"",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((356.95, 418.62136), (356.95, 428.58136), (527.71, 428.58136), (527.71, 418.62136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Next, the focus is to quantify this pattern and address the question of tagging learning resources based on the largest cluster chosen. The solution to this problem is application of to extract hidden knowledge and association analysis interesting relationships from this processed data(Fig(iv)). We use frequent itemsets to find the most commonly attributes that occur together using the apriori principle. A minimum support level is defined as an input to this fourth step. The output is a collection of profile attributes, among which we pick the one with largest frequency. Finally, we assign this most frequently occurring and largest itemset of attributes to the learning resource.",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 442.14135999999996), (315.05, 581.49136), (569.54116, 581.49136), (569.54116, 442.14135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "V. EXPERIMENTAL RESULTS AND DISCUSSION",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((350.71, 619.05136), (350.71, 629.01136), (533.95, 629.01136), (533.95, 619.05136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "The main contribution of our work is the application of machine learning techniques to develop a novel system that can aid learning resource pathways recommendation. The strength of the system lies in assisting new learners by providing more relevant and structured navigational support for informal education settings. Instead of \"People similar to you who liked learning resource X also",
+    "page": 5,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 636.81136), (315.05, 717.32736), (572.06008, 717.32736), (572.06008, 636.81136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "in more accurate",
+    "page": 5,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((358.58516000000003, 660.33136), (358.58516000000003, 670.2913599999999), (439.8288800000001, 670.2913599999999), (439.8288800000001, 660.33136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165b5d4b0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "liked Y\", recommendations take the form of \"People similar to you with learning strategy 3, current skill level 2, target skill level 5, preferred presentation style 4, available learning time [20-30] time units who liked the learning resource X also liked Y\". The advantages are:",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 55.551360000000045), (45.0, 112.57135999999991), (299.32427999999993, 112.57135999999991), (299.32427999999993, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "1)Weight of recommendation and it's specificity is increased. 2)A sense of faith in the recommender system is introduced because peer learners having similar competencies are matched. 3)The learner is placed in a more comfortable and confident position to choose his learning resources. 4)Also, learning resources get organized according to learner characteristics.",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 120.37135999999998), (45.0, 212.65135999999995), (299.54, 212.65135999999995), (299.54, 120.37135999999998)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "For the implementation, we used the \"Book Crossing\" learners providing dataset [14], consisting of 2,78,858 1,149,780 ratings about 2,71,379 learning resources(books). Because TEL datasets having additional and explicit information about learning attributes are very rare to find, the implementation phase consisted of generating random values for various user profile attributes, as mentioned in Section II.II, and augmenting them with the \"Book Crossing\" dataset. Then, on applying NMF and extracting 10 independent features, we achieved the following results for the two nominal attributes:",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 214.45136000000002), (45.0, 342.04136), (299.53999999999996, 342.04136), (299.53999999999996, 214.45136000000002)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (v)Learning strategy",
+    "page": 6,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((114.14, 471.18136), (114.14, 481.14136), (223.82000000000002, 481.14136), (223.82000000000002, 471.18136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (vi)Presentation style",
+    "page": 6,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((114.14, 616.05136), (114.14, 626.01136), (225.98000000000002, 626.01136), (225.98000000000002, 616.05136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "From Fig (v) and Fig (vi), we infer that learning strategy 3 and 5 are most similar or important with respect to each other, while learning strategy 4 and 5 are least similar. Also, among the preferred presentation styles, 4 and 5 are most similar(least distance between them), while 1 and 3 are the least similar(maximum distance).",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 639.21136), (45.0, 707.96736), (299.5322, 707.96736), (299.5322, 639.21136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Some may wonder that it's difficult to evaluate such a system. But, the identified way of evaluating this randomized simulation is by implicit inference of whether the target learner was recommended learning resources based on full user profile cloud of similar learners and in the same domain. The only shortcoming is that we cannot explicitly infer user satisfaction and correctness of the proposed learning pathway through a questionnaire. However, the importance and relevance of implicit inference lies in the fact that it can be collected more easily and at lower cost to the user, although inferences about learning resource desirability will be slightly less accurate than explicitly supplied feedback [15].",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 55.551360000000045), (315.05, 194.89135999999996), (569.47564, 194.89135999999996), (569.47564, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Next, we grouped the subset of users, who rated learning resources greater than 6(on a scale of 10). Using intelligent the multi attribute visualization clustering ISBN learning results \"000649840X\" and ISBN \"0684867621\" in the dataset, and came up with interesting observations. In Fig (vii), each attribute is represented in a vertical line, where the maximum and minimum values of that dimension are scaled to the upper and lower points on these vertical lines. For 5 visualized attributes, 4 lines connected to each vertical line at the appropriate dimensional value represent a 5-dimensional point. The plot shows few prominent horizontal lines(data points), which intuitively represent strong candidates for tagging learning resources. Coming to Fig (viii), it provides further enhancements to the visualization by depicting data points that are attracted to anchors with value dependent positions. The data instances are placed inside a 5-sided polygon because the clustering process is based on 5 different learner profile attributes.",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 202.69136000000003), (315.05, 424.38136000000003), (569.59, 424.38136000000003), (569.59, 202.69136000000003)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "techniques, we plotted",
+    "page": 6,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((445.29692000000006, 226.21136), (445.29692000000006, 236.17135999999994), (548.8908799999999, 236.17135999999994), (548.8908799999999, 226.21136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "for",
+    "page": 6,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((403.0964, 237.97136), (403.0964, 247.93135999999993), (417.1997600000001, 247.93135999999993), (417.1997600000001, 237.97136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "resource with",
+    "page": 6,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((470.21368, 237.97136), (470.21368, 247.93135999999993), (535.29232, 247.93135999999993), (535.29232, 237.97136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (vii)Parallel Coordinates Visualization ( for ISBN \"000649840X\")",
+    "page": 6,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((350.83, 623.01136), (350.83, 644.61136), (533.71, 644.61136), (533.71, 623.01136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633200d0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Fig (viii)Polyviz Visualization(for ISBN \"0684867621\")",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((53.16, 241.96136), (53.16, 251.92135999999994), (291.26, 251.92135999999994), (291.26, 241.96136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Next, on applying association analysis to the data points of the largest cluster, we get the certain tags based on most frequently occurring attribute itemsets. Keeping the support level constant at 0.1, we generate tags for each of the learning resources, four of which are shown in Fig (ix). If there are many tags having same frequencies, we generate tag clouds for the corresponding learning resources, where each cloud can hold more than one kind of preference(tag).",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 265.12136), (45.0, 357.40136), (299.50964000000005, 357.40136), (299.50964000000005, 265.12136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Though some of the current tags do not include all 5 user profile attributes, we claim that the system will generate better and higher order tags, once more number of learners start using the system. This is because the input learner subset will grow in size at each step of the system and this will increase the number of possible combinations of learner profile attributes. The justification seems valid, because our proposed system is a bottom up system which incrementally improves as learners and their ratings increase. It is feasible for lifelong learning scenarios with changing learning actions.",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 365.20135999999997), (45.0, 481.02136), (299.54, 481.02136), (299.54, 365.20135999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Learning Resource ISBN 000649840X",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((42.6, 495.18136), (42.6, 528.78136), (126.28392000000001, 528.78136), (126.28392000000001, 495.18136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Tag-Cloud generated",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((154.82, 495.18136), (154.82, 505.14136), (248.18, 505.14136), (248.18, 495.18136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "[6, 6, [41-50], 24240, 20549]",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((154.82, 518.8213599999999), (154.82, 528.78136), (274.82, 528.78136), (274.82, 518.8213599999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "002542730X",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((42.6, 537.06136), (42.6, 547.02136), (97.67399999999999, 547.02136), (97.67399999999999, 537.06136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "038550120X",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((42.6, 572.85136), (42.6, 582.81136), (97.67399999999999, 582.81136), (97.67399999999999, 572.85136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "0060928336",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((42.6, 608.61136), (42.6, 618.57136), (95.514, 618.57136), (95.514, 608.61136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "[4, 5, -, 30380,23783] and [-, 6, [51-60], 24240, 22802] [6, 6, [51-60], 24240, 23783] and [6, 6, [21-30], 17608, 23783] [-, -, -, 30380,22802] and [-, 6, [41-50], -, -]",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((154.82, 537.06136), (154.82, 642.09136), (277.34000000000003, 642.09136), (277.34000000000003, 537.06136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Fig(ix)Tags generated for learning resources(5 fields in tag cloud are Current Skill level, Target skill level, Learning time(range in hrs), Learning strategy & Presentation style)",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.48, 656.25136), (45.48, 689.49136), (298.94, 689.49136), (298.94, 656.25136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "V. RELATED WORK",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((402.07, 55.551360000000045), (402.07, 65.51135999999997), (482.44, 65.51135999999997), (482.44, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "In this section, we describe the prior studies that have been made in the context of development of learner models for educational adaptive hypermedia. In [17], Sicilia et al. carried out an empirical study on the Merlot repository dataset and concluded that ratings cannot correctly differentiate learner preferences. Results showed relatively high mean absolute errors of around 1.0 in a scale of 1 to 5. Psychological studies have stressed on the need to include personalization factors like collective intelligence, competencies of peer learners and learner's reaction towards the learning objects recommended, for inclusion in the design of TEL RecSys [18]. Instead of focusing on development of better algorithms, such learner centric factors can improve accuracy, as learners are both producers of data and recipients of information. A theoretical study on learner models like stereotype, overlay, differential, perturbation and plan models was made in [21], and a generic approach to build these models was provided. However, no algorithms or implementation details were described.",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 73.31136000000004), (315.05, 283.24136), (571.8586399999999, 283.24136), (571.8586399999999, 73.31136000000004)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "In [19], Verbert et al. did a survey on context aware recommender systems and classified the context framework of TEL RecSys on the basis of computing, location, time, activity, physical conditions, resource and users. The study showed that less than half of the TEL RecSys actually took computing context into consideration. For a majority of them, the implementation was still in the prototype phase. Learner information, prior characteristics knowledge learning goals, cognitive style and affects(emotions) were identified as key points for consideration in providing personalized learning services. In [12], these determinants were implemented in NetLogo simulation environment, with an objective of identifying the preference and competence gap of learners. Formulas for implicit and explicit learning variables laid the basis of determining the percentage of graduates, their satisfaction levels and time taken to graduate. However, to the best of our knowledge, the identified user profile attributes have not been used for improving pedagogical accuracy of learning pathways. And because this a relatively new area, not much work has been done in applying machine learning oriented approaches to leverage such user tagged parameters. So, it is not trivial to use the previous work along this line to setting. subcomponents directly",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 291.04136), (315.05, 571.50136), (569.59, 571.50136), (569.59, 291.04136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "like basic personal",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((383.4254, 373.36136), (383.4254, 383.32136), (477.88604, 383.32136), (477.88604, 373.36136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "level(performance),",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((368.06708000000003, 385.12136), (368.06708000000003, 395.08136), (449.3108000000001, 395.08136), (449.3108000000001, 385.12136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "interests,",
+    "page": 7,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((456.29276000000016, 385.12136), (456.29276000000016, 395.08136), (494.3997200000001, 395.08136), (494.3997200000001, 385.12136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "serve",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((358.80428, 561.5413599999999), (358.80428, 571.50136), (382.27004, 571.50136), (382.27004, 561.5413599999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "as",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((393.22604, 561.5413599999999), (393.22604, 571.50136), (404.01272000000006, 571.50136), (404.01272000000006, 561.5413599999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "in",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((490.3, 561.5413599999999), (490.3, 571.50136), (500.46916000000004, 571.50136), (500.46916000000004, 561.5413599999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "our",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((511.40524, 561.5413599999999), (511.40524, 571.50136), (527.1918400000001, 571.50136), (527.1918400000001, 561.5413599999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "VI. CONCLUSION",
+    "page": 7,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((407.11, 597.09136), (407.11, 607.05136), (479.56, 607.05136), (479.56, 597.09136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "In this paper, we have designed a solution to cater to learning resource recommendations that inaccurate and less relevant. This disturbs learners and wastes their precious time in searching for the apt learning resources. We call this area of technology enhanced learning sensitive because today, many from different demographics having different people competencies, different ways of learning and interpretation, collaborate on online education portals and leverage resources",
+    "page": 7,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 620.85136), (315.05, 713.12736), (569.5794400000001, 713.12736), (569.5794400000001, 620.85136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x165bc77c0>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "from learning repositories to improve their skill set. Because of the inefficiency of human support that can be provided to such a large learning network, intelligent ways are required to match learner's actual preferences with learning resources. And leveraging user specific learning attributes is one of the ways to model real life learner behaviour and improve the pedagogical accuracy of suggested learning pathways.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 55.551360000000045), (45.0, 136.09136), (299.44436, 136.09136), (299.44436, 55.551360000000045)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "VII. FUTURE WORK",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((131.54, 167.65136000000007), (131.54, 177.61136), (213.02, 177.61136), (213.02, 167.65136000000007)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "For future work, we aim to address hypothesis H2, as explained in Section III.I. We also plan to evaluate our system on \"SNAP Amazon product co purchasing network\" metadata [13], because it is more informative than the current dataset used in experimentation. Furthermore, as the system becomes bigger, accuracy could be tested by dynamically increasing support levels and getting top 'k' patterns of the highest order. The tags achieved at higher support levels would be better than the ones at lower support levels. The goal is to choose an optimal support level, so that order of attribute itemsets is as high as possible, and the number of those itemsets having same frequency is as small as possible. This will reduce ambiguity and control the trade off between which and how many attribute itemsets to use as a tag for the learning resource. Another possible research direction is to extend this simulation based model to develop real world datasets for TEL RecSys. Such an augmented labelling of learning resources will be more reflective of learner proficiencies and objectives.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 185.41136000000006), (45.0, 395.32136), (299.55668, 395.32136), (299.55668, 185.41136000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "ACKNOWLEDGMENT",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((130.58, 414.78135999999995), (130.58, 424.74136), (213.86, 424.74136), (213.86, 414.78135999999995)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "This work was supported by the National Research Foundation of Korea(NRF) grant funded by the Korea government(MEST) (No. NRF-2013R1A1A2013401).",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 442.14135999999996), (45.0, 475.62136000000004), (299.2787999999998, 475.62136000000004), (299.2787999999998, 442.14135999999996)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "REFERENCES",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((145.22, 495.06136), (145.22, 505.02136), (199.31, 505.02136), (199.31, 495.06136)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[1] Colley, H., Hodkinson, P., & Malcolm, J. (2002b). Non-formal learning: mapping the conceptual terrain. a consultation report [Electronic Version]. Retrieved 01.05.2008 from http://www.infed.org/archives/e- texts/colley_informal_learning.htm",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 510.41428), (45.0, 546.96664), (299.02412, 546.96664), (299.02412, 510.41428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[2] Manouselis, Nikos, Hendrik Drachsler, Riina Vuorikari, Hans Hummel, and Rob Koper. \"Recommender systems in technology enhanced learning.\" In Recommender systems handbook, pp. 387-415. Springer US, 2011.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 548.33428), (45.0, 584.91664), (298.96316, 584.91664), (298.96316, 548.33428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[3] Mccalla G(2004), The ecological approach to the design of e-Learning environments:Purpose-based capture and use of information about learners. Journal of Interactive Media in Education. Retrieved October 18, 2007, from http://www-jime.open.ac.uk/2004/7 .",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 586.28428), (45.0, 622.83664), (299.02711999999997, 622.83664), (299.02711999999997, 586.28428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[4] Watson, William R., Sunnie Lee, and Charles M. Reigeluth. \"Learning Management Systems: An Overview and Roadmap of the Systematic Application of Computers in computer- supported learning (2007): 66-96",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 624.20428), (45.0, 660.7566400000001), (298.81524, 660.7566400000001), (298.81524, 624.20428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "in Education.\" Advances",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((159.14039999999997, 643.23664), (159.14039999999997, 651.27664), (245.7344, 651.27664), (245.7344, 643.23664)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[5] Huang, Y.-M., Huang, T.-C., Wang, K.-T., Hwang, W.-Y. (2009). A Markov-based Recommendation Model for Exploring the Transfer of Learning on the Web. Educational Technology & Society, 12(2), 144- 162.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 662.12428), (45.0, 698.67264), (298.97947999999997, 698.67264), (298.97947999999997, 662.12428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[6] Borich, G. D., & Tombari, M. L. (1995). Educational Psychology: A",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((45.0, 700.0402799999999), (45.0, 708.15264), (298.74696000000006, 708.15264), (298.74696000000006, 700.0402799999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Contemporary Approach, New York: Harper Collins College.",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((58.56, 709.59264), (58.56, 717.63264), (259.58, 717.63264), (259.58, 709.59264)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "[7] Based on: Merlot Pedagogy portal( http://pedagogy.merlot.org/) [8] The CDIO Syllabus: A comparative study of expected student proficiency\", European Journal of Engineering Education, Vol.28 No. 3 (2003)",
+    "page": 8,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 55.184279999999944), (315.05, 91.75663999999995), (569.11, 91.75663999999995), (569.11, 55.184279999999944)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "[9] Based on: Studies of University of Kansas Center for Research on",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 93.12428), (315.05, 101.23663999999997), (569.05192, 101.23663999999997), (569.05192, 93.12428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Learning(http://www.kucrl.org/sim/strategies.shtml)",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((328.61, 102.67664000000002), (328.61, 110.71663999999998), (498.67, 110.71663999999998), (498.67, 102.67664000000002)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "[10] D. Dagger, O. Conlan, and V. Wade. Fundamental requirements",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 112.08428000000004), (315.05, 120.19664), (543.91, 120.19664), (543.91, 112.08428000000004)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "of personalised e learning development environments. In G. Richards, editor, Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education 2005, pages 2746– 2754. AACE, October 2005",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((332.33, 121.63664000000006), (332.33, 158.11663999999996), (571.15, 158.11663999999996), (571.15, 121.63664000000006)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[11] WALKER A, Recker M M, Lawless K and Wiley D (2004). Collaborative Information Filtering: a review and an educational in application. Education, 14, 1-26.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 159.48428), (315.05, 196.03663999999992), (568.89208, 196.03663999999992), (568.89208, 159.48428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "International Journal of Artificial",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((379.01547999999997, 178.51664000000005), (379.01547999999997, 186.55664000000002), (508.64835999999997, 186.55664000000002), (508.64835999999997, 178.51664000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Intelligence",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((514.42912, 178.51664000000005), (514.42912, 186.55664000000002), (554.75776, 186.55664000000002), (554.75776, 178.51664000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[12] Nadolski, Rob J., Bert Van den Berg, Adriana J. Berlanga, Hendrik Drachsler, Hans GK Hummel, Rob Koper, and Peter B. Sloep. \"Simulating light-weight personalised recommender systems in learning networks: A case for pedagogy-oriented and rating-based hybrid recommendation strategies.\" Journal of Artificial Societies and Social Simulation 12, no. 1 (2009): 4.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 197.40427999999997), (315.05, 252.94664), (569.03368, 252.94664), (569.03368, 197.40427999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[13] J. Leskovec, L. Adamic and B. Adamic. The Dynamics of Viral Marketing. ACM Transactions on the Web (ACM TWEB), 1(1), 2007. [14] Improving Recommendation Lists Through Topic Diversification, Cai- Nicolas Ziegler, Sean M. McNee, Joseph A. Konstan, Georg Lausen; Proceedings of the 14th International World Wide Web Conference (WWW '05), May 10-14, 2005, Chiba, Japan.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 254.31428000000005), (315.05, 309.82664), (569.0083599999999, 309.82664), (569.0083599999999, 254.31428000000005)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[15] Resnick, P. & Varian, H. (1997). Recommender systems, Special Issue.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 311.19428), (315.05, 319.30664), (569.02948, 319.30664), (569.02948, 311.19428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "Communications of the ACM, 40(3), 56-58",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((328.61, 320.74664), (328.61, 328.78664000000003), (469.71999999999997, 328.78664000000003), (469.71999999999997, 320.74664)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[16] Manouselis, Nikos, Riina Vuorikari, and Frans Van Assche. \"Simulated analysis of MAUT collaborative learning object recommendation.\" In Proceedings of the 1st Workshop on Social Information Retrieval for Technology Enhanced Learning. 2007.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 330.15427999999997), (315.05, 366.70664000000005), (568.8854000000001, 366.70664000000005), (568.8854000000001, 330.15427999999997)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "filtering",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((460.40972, 339.70664), (460.40972, 347.74664), (488.19596, 347.74664), (488.19596, 339.70664)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "for",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((494.70032, 339.70664), (494.70032, 347.74664), (505.94828, 347.74664), (505.94828, 339.70664)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[17] Sicilia, Miguel-Ángel, Elena García-Barriocanal, Salvador Sánchez- Alonso, and Cristian Cechinel. \"Exploring user-based recommender results in large learning object repositories: the case of MERLOT.\" Procedia Computer Science 1, no. 2 (2010): 2859-2864.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 368.07428), (315.05, 404.62664), (569.0458, 404.62664), (569.0458, 368.07428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[18] Buder, Jürgen, and Christina Schwind. \"Learning with personalized recommender systems: A psychological view.\" Computers in Human Behavior 28, no. 1 (2012): 207-216.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 406.01428), (315.05, 433.08664000000005), (568.97488, 433.08664000000005), (568.97488, 406.01428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[19] Verbert, Katrien, Nikos Manouselis, Xavier Ochoa, Martin Wolpers, Hendrik Drachsler, Ivana Bosnic, and Erik Duval. \"Context-aware recommender systems for learning: a survey and future challenges.\" (2012): 1-1.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 434.45428), (315.05, 471.00664), (569.09224, 471.00664), (569.09224, 434.45428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[20] Brusilovsky, Peter, and Eva Millán. \"User models for adaptive hypermedia and adaptive educational systems.\" In The adaptive web, pp. 3-53. Springer-Verlag, 2007",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 472.37428), (315.05, 499.44664), (569.11, 499.44664), (569.11, 472.37428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "[21] Nguyen, Loc, and Phung Do. \"Learner model",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 500.81428), (315.05, 508.92664), (518.6132000000001, 508.92664), (518.6132000000001, 500.81428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "in adaptive learning.\" World Academy of Science, Engineering and Technology 45 (2008): 395-400.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((328.61, 500.88664), (328.61, 527.8866399999999), (569.11, 527.8866399999999), (569.11, 500.88664)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[22] Hartigan, John A., and Manchek A. Wong. \"Algorithm AS 136: A k- means clustering algorithm.\" Journal of the Royal Statistical Society. Series C (Applied Statistics) 28, no. 1 (1979): 100-108.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 529.25428), (315.05, 556.32664), (568.7715999999999, 556.32664), (568.7715999999999, 529.25428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Text",
+    "text": "[23] R. Agrawal and R. Srikant, “Fast Algorithms for Mining Association Rules,” Proceedings of the 20th International Conference on Very Large Data Bases,1994, pp. 487-499.",
+    "page": 8,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 557.6942799999999), (315.05, 584.79664), (568.77476, 584.79664), (568.77476, 557.6942799999999)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[24] Lee, Daniel D., and H. Sebastian Seung. \"Learning the parts of objects by non-negative matrix factorization.\" Nature 401, no. 6755 (1999): 788- 791.",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 586.16428), (315.05, 613.23664), (568.7024000000001, 613.23664), (568.7024000000001, 586.16428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "[25] A. Riddell. Factors inﬂuencing educational quality and eﬀectiveness in developing countries: A review of research. Deutsche Gesellschaft fur Technische Zusammenarbeit (GTZ), Germany, 2008",
+    "page": 8,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 614.72428), (315.05, 641.79664), (569.06272, 641.79664), (569.06272, 614.72428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "[26] Knowledge for Development: World Development Report 1998/99.",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((315.05, 643.16428), (315.05, 651.27664), (569.1099999999999, 651.27664), (569.1099999999999, 643.16428)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  },
+  {
+    "type": "Title",
+    "text": "World Bank, 1998.",
+    "page": 8,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "CoordinatesMetadata(points=((328.61, 652.71664), (328.61, 660.7566400000001), (392.56, 660.7566400000001), (392.56, 652.71664)), system=<unstructured.documents.coordinates.PixelSpace object at 0x1633dc040>)",
+    "filename": "1407.7260v1.pdf"
+  }
+]
