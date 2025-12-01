@@ -8,3 +8,7 @@
 
 ![USER INTERFACE](SCREEN_SHOTS/query.png)
 *Sample query results with supporting text and image*
+
+
+![USER INTERFACE](SCREEN_SHOTS/output2.png)
+*Sample AI Assistant output based on query results context*
