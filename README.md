@@ -2,5 +2,5 @@
 
 ## Screenshots
 
-![USER INTERFACE] (SCREEN_SHOTS/UI.png)
+![USER INTERFACE](SCREEN_SHOTS/UI.png)
 
