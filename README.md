@@ -56,9 +56,40 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 -For this application I used a free version of Groq (model: llama-3.3-70b-versatile)
 
 
-### Future Optimization
+### Future Enhancements
 **Hybrid search**: Utilize a combination of keyword and semantic search
 **Prompt tuning**: More rigorous evaluation of prompts and perform A/B testing.
 **Enable Static chunking options**:
 
 
+## Setup
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+streamlit run main.py
+```
+
+## Usage
+
+1. **Index Documents**: Click "Index Documents" in sidebar to process files in `TECH_DOCUMENTS/DOCUMENTS/`
+2. **Configure Options**: Select chunking strategy and image capture preferences
+3. **Query**: Enter questions in natural language (supports compound queries)
+4. **Review Results**: View retrieved context, images, and LLM-generated answers
+
+## Configuration Options
+
+- **Chunking**: Auto (by titles) or Static (configurable size/overlap - not yet implemented)
+- **Image Capture**: Toggle document image extraction
+- **Indexing Scope**: Single document or batch processing
+
+## Technical Stack
+
+- **Vector Database**: ChromaDB with persistent storage
+- **Embeddings**: sentence-transformers (all-MiniLM-L6-v2)
+- **Reranking**: cross-encoder/ms-marco-MiniLM-L-6-v2
+- **LLM**: Groq (llama-3.3-70b-versatile)
+- **Document Processing**: Unstructured library
+- **Frontend**: Streamlit
