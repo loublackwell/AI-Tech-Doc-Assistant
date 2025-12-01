@@ -17,4 +17,11 @@
 ![USER INTERFACE](SCREEN_SHOTS/json_output.png)
 *Sample JSON output*
 
+## Overview
+Retrieval Augmented Generation (RAG) system to support Q/A of technical documents
 
+
+## App Features
+
+- **Technical Document Processing & Analysis**: Support PDF and TXT document types using the Unstructured library
+- **Streamlit Interface**: Supports Q/A and configurable indexing options
