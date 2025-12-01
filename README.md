@@ -37,3 +37,28 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 - **JSON Output**: Optional structured output for system integration
 
 - **Named Entity Recognition (Future Version)**:
+
+
+## App Architecture
+
+###The Indexing Pipeline
+
+
+### Query Pipeline
+
+**Multi-Query Decomposition**
+
+**Retrieval with Reranking**
+
+**Deduplication of Sub-Queries
+
+**API**
+-For this application I used a free version of Groq (model: llama-3.3-70b-versatile)
+
+
+### Future Optimization
+**Hybrid search**: Utilize a combination of keyword and semantic search
+**Prompt tuning**: More rigorous evaluation of prompts and perform A/B testing.
+**Enable Static chunking options**:
+
+
