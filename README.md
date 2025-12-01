@@ -12,3 +12,7 @@
 
 ![USER INTERFACE](SCREEN_SHOTS/output2.png)
 *Sample AI Assistant output based on query results context*
+
+
+![USER INTERFACE](SCREEN_SHOTS/json_output.png)
+*JSON output*
