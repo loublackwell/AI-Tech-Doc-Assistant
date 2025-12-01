@@ -63,7 +63,7 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 
 
 ## Setup
-
+Suggestion: I recommend creating a virtual environment for this app to run in
 ```bash
 # Install dependencies
 pip install -r requirements.txt
