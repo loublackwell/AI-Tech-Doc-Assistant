@@ -15,6 +15,6 @@
 
 
 ![USER INTERFACE](SCREEN_SHOTS/json_output.png)
-*JSON output*
+*Sample JSON output*
 
 
