@@ -53,7 +53,7 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 
 **Retrieval with Reranking**
 
-**Deduplication of Sub-Queries
+**Deduplication of Sub-Queries**
 - Compound queries are transformed into a list of sub-queries and the query results recieved from the vector DB are deduped before passing to the LLM for final processing/evaluation.
   
 **API**
