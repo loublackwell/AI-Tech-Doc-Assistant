@@ -61,7 +61,7 @@ Retrieval Augmented Generation (RAG) system to support Q/A of technical document
 
 
 ### Future Enhancements
-**Hybrid search**: Utilize a combination of keyword and semantic search
+**Hybrid search**: Utilize a combination of keyword and semantic search.
 **Prompt tuning**: More rigorous evaluation of prompts and perform A/B testing.
 **Enable Static chunking options**:
 **Named Entity Recognition (Future Version)**: Highlight detected entities

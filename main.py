@@ -160,13 +160,18 @@ if index_button:
     collection,client=create_collection(default_folder,collection_name)
     #Index collection
     add_documents(collection,documents,my_ids)
-    
+    count = collection.count()#Forces chromadb to commit/write to disk
+    st.sidebar.success(f"Indexed {count} documents!")
     #READ AND PROCESS DOCUMENTS
     if doc_number==1:
         single_file=[documents_folder / selected_file]
     
     else:
         all_schema,all_docs=process_docs(documents_folder,image)
+        
+        
+        
+        
         
 #------- QUERY VECTORDB --------
 collection_name="my_collection"
@@ -194,7 +199,12 @@ if query!="": #CHECK FOR EMPTY OR NULL INPUT.
         #st.write(results)
         documents=results["documents"][0]#Returns the documents that were retrieved based on the query
         my_ids=results["ids"][0]
-    
+        
+        #Check for empty results
+        if not documents:
+            st.warning(f"No results found: '{sub_query}'")
+            continue
+            
         valid_indices, valid_scores=reranker_with_scores(sub_query, documents, threshold=-999)
 
         #st.write("#### Query Results:")

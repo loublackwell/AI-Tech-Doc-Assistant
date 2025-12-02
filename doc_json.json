@@ -1,0 +1,740 @@
+[
+  {
+    "type": "Title",
+    "text": "Installing Python Modules",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Email:",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "distutils",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "EmailAddress",
+    "text": "sig@python.org",
+    "page": null,
+    "category": "EmailAddress",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "As a popular open source development project, Python has an active supporting community of contributors and users that also make their software available for other Python developers to use under open source license terms.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "This allows Python users to share and collaborate effectively, benefiting from the solutions others have already created to common (and sometimes even rare!) problems, as well as potentially contributing their own solutions to the common pool.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "This guide covers the installation part of the process. For a guide to creating and sharing your own Python projects, refer to the Python packaging user guide.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Note",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "For corporate and other institutional users, be aware that many organisations have their own policies around using and contributing to open source software. Please take such policies into account when making use of the distribution and installation tools provided with Python. Key terms",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "pip is the preferred installer program. Starting with Python 3.4, it is included by default with the Python binary installers.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "A virtual environment is a semi-isolated Python environment that allows packages to be installed for use by a particular application, rather than being installed system wide.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "venv is the standard tool for creating virtual environments, and has been part of Python since Python 3.3. Starting with Python 3.4, it defaults to installing pip into all created virtual environments.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "virtualenv is a third party alternative (and predecessor) to venv. It allows virtual environments to be used on versions of Python prior to 3.4, which either don’t provide venv at all, or aren’t able to automatically install pip into created environments.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "The Python Package Index is a public repository of open source licensed packages made available for use by other Python users.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "the Python Packaging Authority is the group of developers and documentation authors responsible for the maintenance and evolution of the standard packaging tools and the associated metadata and file format standards. They maintain a variety of tools, documentation, and issue trackers on GitHub.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "distutils is the original build and distribution system first added to the Python standard library in 1998. While direct use of distutils is being phased out, it still laid the foundation for the current packaging and distribution infrastructure, and it not only remains part of the standard library, but its name lives on in other ways (such as the name of the mailing list used to coordinate Python packaging standards development).",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Changed in version 3.5: The use of venv is now recommended for creating virtual environments.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "See also",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Python Packaging User Guide: Creating and using virtual environments Basic usage",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "The standard packaging tools are all designed to be used from the command line.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "The following command will install the latest version of a module and its dependencies from the Python Package Index:",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "python",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "m pip install SomePackage",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Note",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "For POSIX users (including macOS and Linux users), the examples in this guide assume the use of a virtual environment.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "For Windows users, the examples in this guide assume that the option to adjust the system PATH environment variable was selected when installing Python.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "It’s also possible to specify an exact or minimum version directly on the command line. When using comparator operators such as >, < or some other special character which get interpreted by shell, the package name and the version should be enclosed within double quotes:",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "python -m pip install SomePackage==1.0.4    # specific version python -m pip install \"SomePackage>=1.0.4\"  # minimum version",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Normally, if a suitable module is already installed, attempting to install it again will have no effect. Upgrading existing modules must be requested explicitly:",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "python",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "m pip install -",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "upgrade SomePackage",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "More information and resources regarding pip and its capabilities can be found in the Python Packaging User Guide.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Creation of virtual environments is done through the venv module. Installing packages into an active virtual environment uses the commands shown above.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "See also",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Python Packaging User Guide: Installing Python Distribution Packages How do I …?",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "These are quick answers or links for some common tasks. … install pip in versions of Python prior to Python 3.4?",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Python only started bundling pip with Python 3.4. For earlier versions, pip needs to be “bootstrapped” as described in the Python Packaging User Guide.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "See also",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Python Packaging User Guide: Requirements for Installing Packages … install packages just for the current user?",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Passing the --user option to python -m pip install will install a package just for the current user, rather than for all users of the system. … install scientific Python packages?",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "A number of scientific Python packages have complex binary dependencies, and aren’t currently easy to install using pip directly. At this point in time, it will often be easier for users to install these packages by other means rather than attempting to install them with pip.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "See also",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Python Packaging User Guide: Installing Scientific Packages … work with multiple versions of Python installed in parallel?",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "On Linux, macOS, and other POSIX systems, use the versioned Python commands in combination with the -m switch to run the appropriate copy of pip:",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Text",
+    "text": "python2   -m pip install SomePackage  # default Python 2 python2.7 -m pip install SomePackage  # specifically Python 2.7 python3   -m pip install SomePackage  # default Python 3 python3.4 -m pip install SomePackage  # specifically Python 3.4",
+    "page": null,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Appropriately versioned pip commands may also be available.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "On Windows, use the py Python launcher in combination with the -m switch:",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "py -2   -m pip install SomePackage  # default Python 2 py -2.7 -m pip install SomePackage  # specifically Python 2.7 py -3   -m pip install SomePackage  # default Python 3 py -3.4 -m pip install SomePackage  # specifically Python 3.4",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Common installation issues Installing into the system Python on Linux",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "On Linux systems, a Python installation will typically be included as part of the distribution. Installing into this Python installation requires root access to the system, and may interfere with the operation of the system package manager and other components of the system if a component is unexpectedly upgraded using pip.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "On such systems, it is often better to use a virtual environment or a per-user installation when installing packages with pip. Pip not installed",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "It is possible that pip does not get installed by default. One potential fix is:",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "python",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "m ensurepip -",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "default",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "pip",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "There are also additional resources for installing pip. Installing binary extensions",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Python has typically relied heavily on source based distribution, with end users being expected to compile extension modules from source as part of the installation process.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "With the introduction of support for the binary wheel format, and the ability to publish wheels for at least Windows and macOS through the Python Package Index, this problem is expected to diminish over time, as users are more regularly able to install pre-built extensions rather than needing to build them themselves.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Some of the solutions for installing scientific software that are not yet available as pre-built wheel files may also help with obtaining other binary extensions without needing to build them locally.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "See also",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Python Packaging User Guide: Binary Extensions Table of Contents",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Installing Python Modules Key terms Basic usage How do I …? … install pip in versions of Python prior to Python 3.4? … install packages just for the current user? … install scientific Python packages? … work with multiple versions of Python installed in parallel? Common installation issues Installing into the system Python on Linux Pip not installed Installing binary extensions",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Previous topic",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Monitoring C API",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Next topic",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Python HOWTOs",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "This page",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Report a bug",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Show source",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Text",
+    "text": "«",
+    "page": null,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "index",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "modules |",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "next |",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "previous |",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "Python logo Python »",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "3.14.0 Documentation » Installing Python Modules | Theme",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Text",
+    "text": "|",
+    "page": null,
+    "category": "UncategorizedText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "© Copyright 2001 Python Software Foundation. This page is licensed under the Python Software Foundation License Version 2. Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License. See History and License for more information.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "Title",
+    "text": "The Python Software Foundation is a non-profit corporation. Please donate.",
+    "page": null,
+    "category": "Title",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  },
+  {
+    "type": "NarrativeText",
+    "text": "Last updated on Nov 25, 2025 (18:01 UTC). Found a bug? Created using Sphinx 8.2.3.",
+    "page": null,
+    "category": "NarrativeText",
+    "image_path": null,
+    "coordinates": "None",
+    "filename": "python_docs.txt"
+  }
+]
